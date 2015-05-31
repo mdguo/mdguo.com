@@ -1,7 +1,7 @@
 # JSX #
 jsx/*
 js/.*
-
+node_modules/*
 
 # Logs and databases #
 ######################
