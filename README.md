@@ -1,3 +1,2 @@
-# Michael Guo's personal website
-## with ReactJS
-Dependencies: jsx, react-router (npm)
+## My personal website with ReactJS
+Vendor libraries: jsx, requirejs, react-router, react-bootstrap (npm)
