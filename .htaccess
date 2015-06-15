@@ -1,0 +1,9 @@
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule api/(.*)$ api/api.php?request=$1 [QSA,NC,L]
+
+RewriteCond %{REQUEST_FILENAME} !index.html
+RewriteCond %{REQUEST_URI} !\.(gif|jpe?g|png|css|js|jsx|php)$
+RewriteRule .* index.html?url=$0 [QSA]
