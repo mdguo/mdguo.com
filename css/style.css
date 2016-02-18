@@ -81,12 +81,11 @@ li, p {
   line-height: 22px;
 }
 
-.work-experience li {
-  font-family: Arial;
-  font-size: 14px;
-  line-height: 19px;
-}
-
+.color-0 { color: #BA8246 } /* Main Primary color */
+.color-1 { color: #FF9322 }
+.color-2 { color: #FFA13F }
+.color-3 { color: #513E2B }
+.color-4 { color: #000000 }
 
 
 
@@ -107,143 +106,144 @@ li, p {
     left: 20px; }
 
   #content section:nth-child(odd):before {
-    left: 20px; } }
+    left: 20px; }
+}
 
 
-			.clearfix:after {
-				content: ".";
-				display: block;
-				height: 0;
-				clear: both;
-				visibility: hidden;
-			}
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
 
-			h2 {
-				border-bottom: 1px #CCC solid;
-				margin-bottom: 10px;
-				padding-bottom: 10px;
-			}
+h2 {
+	border-bottom: 1px #CCC solid;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
 
-      .skill-summary li {
-        margin-bottom: 7px;
-      }
+.skill-summary li {
+  margin-bottom: 7px;
+}
 
-			.float-left {
-				float: left;
-			}
+.float-left {
+	float: left;
+}
 
-			.basic-bio .col-1 {
-				width: 40%;
-				margin-right: 10%;
-			}
+.basic-bio .col-1 {
+	width: 40%;
+	margin-right: 10%;
+}
 
-			.basic-bio .col-2 {
-				width: 40%;
-				margin-right: 5%;
-			}
+.basic-bio .col-2 {
+	width: 40%;
+	margin-right: 5%;
+}
 
-			.basic-bio .edu-short {
-				margin-bottom: 10px;
-			}
+.basic-bio .edu-short {
+	margin-bottom: 10px;
+}
 
-			.basic-bio .edu-short .col-1 {
-				width: 16%;
-				margin-right: 4%;
-			}
+.basic-bio .edu-short .col-1 {
+	width: 16%;
+	margin-right: 4%;
+}
 
-      .basic-bio .edu-short .col-1 img {
-        position: relative;
-        top: 7px;
-      }
+.basic-bio .edu-short .col-1 img {
+  position: relative;
+  top: 7px;
+}
 
-			.basic-bio .edu-short .col-2 {
-				width: 80%;
-				margin-right: 0%;
-			}
+.basic-bio .edu-short .col-2 {
+	width: 80%;
+	margin-right: 0%;
+}
 
-			.basic-bio .title-short .col-1 {
-				width: 16%;
-				margin-right: 4%;
-			}
+.basic-bio .title-short .col-1 {
+	width: 16%;
+	margin-right: 4%;
+}
 
-			.basic-bio .title-short .col-2 {
-				width: 80%;
-				margin-right: 0%;
-			}
+.basic-bio .title-short .col-2 {
+	width: 80%;
+	margin-right: 0%;
+}
 
-			.contact-info .icon {
-        margin-right: 5%;
-      }
+.contact-info .icon {
+  margin-right: 5%;
+}
 
-      .contact-info .info-item {
-        margin-bottom: 14px;
-      }
+.contact-info .info-item {
+  margin-bottom: 14px;
+}
 
-      .skill-summary ul li {
-        list-style-image: url("../images/check_mark.png");
-        margin-left: 24px;
-      }
+.skill-summary ul li {
+  list-style-image: url("../images/check_mark.png");
+  margin-left: 24px;
+}
 
-      .work-experience-item {
-        margin-bottom: 20px;
-        padding-left: 30px;
-        padding-right: 30px;
-      }
+.work-experience-item {
+  margin-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
 
-      .work-experience p.work-info {
-        color: #66696a;
-        font-size: 14px;
-        line-height: 18px;
-        margin-bottom: 4px;
-      }
+.work-experience p.work-info {
+  color: #66696a;
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 4px;
+}
 
-      .work-experience ul {
-        list-style: disc;
-      }
+.work-experience ul {
+  list-style: disc;
+}
 
-      .work-experience li {
-        margin-left: 18px;
-        list-style: disc;
-        margin-bottom: 3px;
-      }
+.work-experience li {
+  margin-left: 18px;
+  list-style: disc;
+  margin-bottom: 3px;
+}
 
-			.education strong {
-				font-weight: bold;
-			}
+.education strong {
+	font-weight: bold;
+}
 
-      .education-item {
-        margin-bottom: 30px;
-      }
+.education-item {
+  margin-bottom: 30px;
+}
 
-      .education .edu-title {
-        margin-bottom: 14px;
-      }
+.education .edu-title {
+  margin-bottom: 14px;
+}
 
-      .education .edu-content {
-        margin-left: 21px;
-      }
+.education .edu-content {
+  margin-left: 21px;
+}
 
-      .edu-content .content-1 {
-        margin-bottom: 10px;
-      }
+.edu-content .content-1 {
+  margin-bottom: 10px;
+}
 
-      .edu-info {
-        color: #66696a;
-        font-size: 14px;
-        line-height: 18px;
-        margin-bottom: 4px;
-      }
+.edu-info {
+  color: #66696a;
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 4px;
+}
 
-      .edu-research p {
-        font-size: 16px;
-        margin-bottom: 5px;
-      }
+.edu-research p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
 
-      .edu-research h4 {
-        text-decoration: underline;
-      }
+.edu-research h4 {
+  text-decoration: underline;
+}
 
-      .education .proj-header {
-        margin-bottom: 5px;
-        padding-bottom: 5px;
-      }
+.education .proj-header {
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
